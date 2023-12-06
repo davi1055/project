@@ -1,0 +1,26 @@
+%YAML:1.0
+---
+# choose between using a camera or video
+# camera list(1,2,3,4...) or video(-1)
+use_camera: -1
+# debug use
+show_src_img: 0
+show_red_img: 0
+show_green_img: 0
+show_binary_img: 0
+show_result_img: 1
+# this is cilcle config
+min_threshold: 50
+# this is arrow config
+min_ratio: 1.2
+max_ratio: 2.5
+min_area: 100
+# this is line config
+# !unuse
+min_h: 68
+min_s: 10
+min_v: 40
+max_h: 113
+max_s: 74
+max_v: 74
+

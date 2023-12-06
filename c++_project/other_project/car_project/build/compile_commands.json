@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/davi/project/car_project/build",
+  "command": "/usr/bin/c++ -I/home/davi/project/car_project/include -I/home/davi/project/car_project/./src -I/home/davi/project/car_project/./include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/car.dir/src/main.cpp.o -c /home/davi/project/car_project/src/main.cpp",
+  "file": "/home/davi/project/car_project/src/main.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/davi/project/BuffDetect/build/CMakeFiles/BuffDetect.dir
+/home/davi/project/BuffDetect/build/CMakeFiles/edit_cache.dir
+/home/davi/project/BuffDetect/build/CMakeFiles/rebuild_cache.dir

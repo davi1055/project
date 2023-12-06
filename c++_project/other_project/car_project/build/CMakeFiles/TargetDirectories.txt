@@ -1,0 +1,3 @@
+/home/davi/project/car_project/build/CMakeFiles/car.dir
+/home/davi/project/car_project/build/CMakeFiles/edit_cache.dir
+/home/davi/project/car_project/build/CMakeFiles/rebuild_cache.dir

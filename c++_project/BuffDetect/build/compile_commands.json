@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/davi/project/BuffDetect/build",
+  "command": "/usr/bin/c++ -isystem /usr/include/eigen3 -isystem /usr/local/include/opencv4 -isystem /usr/include/python3.10 -g -o CMakeFiles/BuffDetect.dir/src/main.cpp.o -c /home/davi/project/BuffDetect/src/main.cpp",
+  "file": "/home/davi/project/BuffDetect/src/main.cpp"
+},
+{
+  "directory": "/home/davi/project/BuffDetect/build",
+  "command": "/usr/bin/c++ -isystem /usr/include/eigen3 -isystem /usr/local/include/opencv4 -isystem /usr/include/python3.10 -g -o CMakeFiles/BuffDetect.dir/general/GxCamera/GxCamera.cpp.o -c /home/davi/project/BuffDetect/general/GxCamera/GxCamera.cpp",
+  "file": "/home/davi/project/BuffDetect/general/GxCamera/GxCamera.cpp"
+}
+]

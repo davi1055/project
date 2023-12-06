@@ -1,0 +1,11 @@
+*.mp4
+*.MP4
+*.avi
+
+*.zip
+*.gz
+*.tar
+
+*.pth
+*.pyc
+*.pickle
