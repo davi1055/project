@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Y_DISTANCE_BETWEEN_GUN_AND_CAM>55.</Y_DISTANCE_BETWEEN_GUN_AND_CAM>
+<CAMERA_MATRIX_1 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.9605164704911292e+03 0. 9.5950000000000000e+02 0.
+    1.9605164704911292e+03 5.9950000000000000e+02 0. 0. 1.</data></CAMERA_MATRIX_1>
+<!--  1194.3 0. 640.4743 0.-->
+<!--  1159.3 516.8607 0. 0. 1.</data></CAMERA_MATRIX_1>-->
+<CAMERA_MATRIX_2 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    2.0067448130835971e+03 0. 9.5950000000000000e+02 0.
+    2.0067448130835971e+03 5.9950000000000000e+02 0. 0. 1.</data></CAMERA_MATRIX_2>
+<CAMERA_MATRIX_3 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.2683257887460488e+03 0. 6.3950000000000000e+02 0.
+    1.2683257887460488e+03 5.1150000000000000e+02 0. 0. 1.</data></CAMERA_MATRIX_3>
+<CAMERA_MATRIX_4 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1208.894604 0. 639.500000 0.
+    1208.894604 511.500000 0. 0. 1.</data></CAMERA_MATRIX_4>
+<CAMERA_MATRIX_5 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1814.041903 0. 639.5000000 0.
+    1814.041903 511.500000 0. 0. 1.</data></CAMERA_MATRIX_5>
+<DISTORTION_COEFF_1 type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -4.3626972611715734e-02 1.0667381384901560e-01 0. 0.
+    -2.6303422473872901e-01</data></DISTORTION_COEFF_1>
+<DISTORTION_COEFF_2 type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+   -1.2348430745744608e-01 1.6797449998374225e-01 0. 0.
+    6.8522436712633139e-02</data></DISTORTION_COEFF_2>
+<DISTORTION_COEFF_3 type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -1.3910191148441073e-01 1.1259331379279071e-01 0. 0.
+    6.9437699448792620e-02</data></DISTORTION_COEFF_3>
+<DISTORTION_COEFF_4 type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -6.4052031438893639e-02 1.7281094423428409e-01 0. 0.
+    -2.8435085763741347e-01</data></DISTORTION_COEFF_4>
+<DISTORTION_COEFF_5 type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -0.145521 0.073817
+    0 0 -0.363295</data></DISTORTION_COEFF_5>
+</opencv_storage>
