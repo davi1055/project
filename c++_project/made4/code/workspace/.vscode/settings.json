@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "chrono": "cpp"
+    },
+    "cmake.sourceDirectory": "/root/workspace/build/mypkg_interfaces/mypkg_interfaces__py"
+}

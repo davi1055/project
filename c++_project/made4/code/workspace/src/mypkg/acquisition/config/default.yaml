@@ -1,0 +1,3 @@
+/acquisition:
+  ros__parameters:
+    exposure: 45  
