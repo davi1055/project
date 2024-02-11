@@ -3,10 +3,11 @@
 #include <iostream>
 #include <vector>
 
-template <typename... Args> void printNums(Args... args) {
+template <typename... Args> void printNums(const Args... args) {
     int sum{0};
     std::cout << sizeof...(Args) << "\n";
-    sum = (args + ... + sum);
+    sum += (args + ...);
+    // sum = (args + ... + sum);
     std::cout << sum << "\n";
     int dummy[] = {(std::cout << args << " ", 0)...};
     ((std::cout << args << " "), ...);
@@ -23,7 +24,7 @@ void push_back_vec(std::vector<T> &v, Args &&...args) {
 int main() {
     std::vector<int> vec;
     push_back_vec(vec, 1, 1, 2, 3, 4, 4);
-    for (auto &it : vec) {
+    for (const auto &it : vec) {
         std::cout << it << "\n";
     }
     return 0;

@@ -49,7 +49,7 @@ int main()
 
 ```c++
 template <typename... Args>
-void PrintNums(Args... args)
+void PrintNums(const Args... args)
 {
     ((std::cout << args << " "),...);  //符合折叠表达式的(形参包 运算符 ...)形式
     							 //其中 形参包为(std::cout << args << " ")，运算符为 ','
@@ -78,7 +78,7 @@ void push_back_vec(std::vector<T> &v, Args &&...args) {
 int main() {
     std::vector<int> vec;
     push_back_vec(vec, 1, 1, 2, 3, 4, 4);
-    for (auto &it : vec) {
+    for (const auto &it : vec) {
         std::cout << it << "\n";
     }
     return 0;
