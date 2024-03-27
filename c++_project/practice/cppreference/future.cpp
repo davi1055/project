@@ -21,7 +21,6 @@ int main() {
                      std::move(accumulate_promise));
     accumulate_future.wait();
     // std::cout << accumulate_future.get() << "\n";
-
     std::promise<int> p;
     std::future<int> future = p.get_future();
     std::thread([&p]() { p.set_value_at_thread_exit(9); }).detach();

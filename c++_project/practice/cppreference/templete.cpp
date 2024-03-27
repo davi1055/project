@@ -7,15 +7,15 @@
  */
 template <typename T>
 struct Test {
-  T a{};
-  Test(const T &a) : a(a){};
+    T a{};
+    Test(const T &a) : a(a){};
 };
 
 Test(const char *) -> Test<std::string>;
 
 template <typename T, size_t size>
 struct array {
-  T arr[size];
+    T arr[size];
 };
 
 template <class Tu, class... Tp>
@@ -33,9 +33,9 @@ void f(Us... pargs) {}
 
 template <class... Ts>
 void g(Ts... args) {
-  auto f_ = [](auto arg) -> auto { return arg; }(f_(&args), ...);
-  // f(&args...); // ��&args...�� �ǰ�չ��
-  //  ��&args�� ������ģʽ
+    auto f_ = [](auto arg) -> auto { return arg; }(f_(&args), ...);
+    // f(&args...); // ��&args...�� �ǰ�չ��
+    //  ��&args�� ������ģʽ
 }
 
 /*
@@ -45,28 +45,28 @@ void g(Ts... args) {
 ////1. ����...����
 template <size_t... args>
 struct X {
-  void f() {
-    /*for (const auto& i : { args... })
-    {
-            std::cout << i << " ";
-    }*/
-    ((std::cout << args << ""), ...);
-    endl(std::cout);  // ʵ����������
-  }
+    void f() {
+        /*for (const auto& i : { args... })
+        {
+                std::cout << i << " ";
+        }*/
+        ((std::cout << args << ""), ...);
+        endl(std::cout);  // ʵ����������
+    }
 };
 
 // 2. typename|class ... ����
 template <typename... Args>
 void f(Args... args) {
-  ((std::cout << args << " "), ...);  // �۵�����ʽC++17
-  endl(std::cout);
+    ((std::cout << args << " "), ...);  // �۵�����ʽC++17
+    endl(std::cout);
 }
 
 // 3.����Լ��...���� (C++20��)
 template <std::integral... Args>
 void f2(Args... args) {
-  ((std::cout << args << " "), ...);
-  endl(std::cout);
+    ((std::cout << args << " "), ...);
+    endl(std::cout);
 }
 
 /*
@@ -77,21 +77,21 @@ void f2(Args... args) {
 class String {};
 template <typename T>
 class Array {
-  // doing something...
+    // doing something...
 };
 
 template <typename T>
 void sort(Array<T> &v) {
-  // doing something...
+    // doing something...
 }
 void f(Array<String> &v) {
-  sort(v);  // ��sort(Array<T>& v)��ʽ�ػ�Ϊ sort(Array<String>& v)
+    sort(v);  // ��sort(Array<T>& v)��ʽ�ػ�Ϊ sort(Array<String>& v)
 }
 
 // error sort()����֮ǰ�ѱ���ʽ�ػ�Ϊsort(Array<String>& v)
 template <>
 void sort(Array<String> &v) {
-  // doing something...
+    // doing something...
 }
 
 int main() { return 0; }
