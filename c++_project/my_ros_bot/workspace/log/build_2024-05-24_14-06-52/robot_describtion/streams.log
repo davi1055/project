@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/root/my_ros_bot/workspace/build/robot_describtion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/my_ros_bot/workspace/build/robot_describtion -- -j8 -l8
+[0.039s] [31mCMake Error at CMakeLists.txt:33 (find_package):
+[0.039s]   By not providing "Findament_auto_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.039s]   project has asked CMake to find a package configuration file provided by
+[0.039s]   "ament_auto_cmake", but CMake did not find one.
+[0.039s] 
+[0.039s]   Could not find a package configuration file provided by "ament_auto_cmake"
+[0.040s]   with any of the following names:
+[0.040s] 
+[0.040s]     ament_auto_cmakeConfig.cmake
+[0.040s]     ament_auto_cmake-config.cmake
+[0.040s] 
+[0.040s]   Add the installation prefix of "ament_auto_cmake" to CMAKE_PREFIX_PATH or
+[0.040s]   set "ament_auto_cmake_DIR" to a directory containing one of the above
+[0.040s]   files.  If "ament_auto_cmake" provides a separate development package or
+[0.040s]   SDK, be sure it has been installed.
+[0.040s] 
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/root/my_ros_bot/workspace/build/robot_describtion/CMakeFiles/CMakeOutput.log".
+[0.041s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.042s] Invoked command in '/root/my_ros_bot/workspace/build/robot_describtion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/my_ros_bot/workspace/build/robot_describtion -- -j8 -l8

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (robot_describtion) JobQueued: {'identifier': 'robot_describtion', 'dependencies': OrderedDict()}
+[0.000652] (robot_describtion) JobStarted: {'identifier': 'robot_describtion'}
+[0.007193] (robot_describtion) JobProgress: {'identifier': 'robot_describtion', 'progress': 'cmake'}
+[0.007357] (robot_describtion) Command: {'cmd': ['/usr/bin/cmake', '/root/my_ros_bot/workspace/src/robot_describtion', '-DCMAKE_INSTALL_PREFIX=/root/my_ros_bot/workspace/install/robot_describtion'], 'cwd': '/root/my_ros_bot/workspace/build/robot_describtion', 'env': OrderedDict([('HOSTNAME', 'davi-Z3AirSeries'), ('FZF_DEFAULT_OPTS', '--color=fg:-1,bg:-1,hl:3,fg+:0,bg+:48,hl+:1,info:6,prompt:3,pointer:5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/my_ros_bot/workspace/log'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'more'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/my_ros_bot/workspace/install:/opt/ros/humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble'), ('PWD', '/root/my_ros_bot/workspace/build/robot_describtion'), ('FZF_PREVIEW_OPTS', '--border --color=bg+:48,bg:-1,hl:3,fg:7'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble')]), 'shell': False}
+[0.049833] (robot_describtion) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.088708] (robot_describtion) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.093872] (robot_describtion) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099856] (-) TimerEvent: {}
+[0.143014] (robot_describtion) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150190] (robot_describtion) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150401] (robot_describtion) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.150689] (robot_describtion) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153218] (robot_describtion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199986] (-) TimerEvent: {}
+[0.210504] (robot_describtion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.219784] (robot_describtion) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.220075] (robot_describtion) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.220632] (robot_describtion) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.224429] (robot_describtion) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300106] (-) TimerEvent: {}
+[0.341626] (robot_describtion) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400236] (-) TimerEvent: {}
+[0.417298] (robot_describtion) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.462662] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.467425] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.475051] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.487100] (robot_describtion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500328] (-) TimerEvent: {}
+[0.504561] (robot_describtion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.575903] (robot_describtion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.578356] (robot_describtion) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600439] (-) TimerEvent: {}
+[0.660631] (robot_describtion) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.684271] (robot_describtion) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700551] (-) TimerEvent: {}
+[0.734371] (robot_describtion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.744879] (robot_describtion) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.793354] (robot_describtion) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.793662] (robot_describtion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800627] (-) TimerEvent: {}
+[0.844453] (robot_describtion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.845271] (robot_describtion) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900727] (-) TimerEvent: {}
+[0.986164] (robot_describtion) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000848] (-) TimerEvent: {}
+[1.053856] (robot_describtion) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.054139] (robot_describtion) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/my_ros_bot/workspace/src/robot_describtion/./include\n'}
+[1.054215] (robot_describtion) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.054511] (robot_describtion) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.055007] (robot_describtion) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.055455] (robot_describtion) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.056244] (robot_describtion) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.056331] (robot_describtion) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.056697] (robot_describtion) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.057641] (robot_describtion) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.064022] (robot_describtion) StdoutLine: {'line': b'-- Generating done\n'}
+[1.065176] (robot_describtion) StdoutLine: {'line': b'-- Build files have been written to: /root/my_ros_bot/workspace/build/robot_describtion\n'}
+[1.071165] (robot_describtion) CommandEnded: {'returncode': 0}
+[1.071529] (robot_describtion) JobProgress: {'identifier': 'robot_describtion', 'progress': 'build'}
+[1.072387] (robot_describtion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/my_ros_bot/workspace/build/robot_describtion', '--', '-j8', '-l8'], 'cwd': '/root/my_ros_bot/workspace/build/robot_describtion', 'env': OrderedDict([('HOSTNAME', 'davi-Z3AirSeries'), ('FZF_DEFAULT_OPTS', '--color=fg:-1,bg:-1,hl:3,fg+:0,bg+:48,hl+:1,info:6,prompt:3,pointer:5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/my_ros_bot/workspace/log'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'more'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/my_ros_bot/workspace/install:/opt/ros/humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble'), ('PWD', '/root/my_ros_bot/workspace/build/robot_describtion'), ('FZF_PREVIEW_OPTS', '--border --color=bg+:48,bg:-1,hl:3,fg:7'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble')]), 'shell': False}
+[1.100997] (-) TimerEvent: {}
+[1.105400] (robot_describtion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o\x1b[0m\n'}
+[1.201115] (-) TimerEvent: {}
+[1.301369] (-) TimerEvent: {}
+[1.401639] (-) TimerEvent: {}
+[1.501951] (-) TimerEvent: {}
+[1.602245] (-) TimerEvent: {}
+[1.702504] (-) TimerEvent: {}
+[1.802767] (-) TimerEvent: {}
+[1.903049] (-) TimerEvent: {}
+[2.003360] (-) TimerEvent: {}
+[2.103635] (-) TimerEvent: {}
+[2.203913] (-) TimerEvent: {}
+[2.304191] (-) TimerEvent: {}
+[2.404470] (-) TimerEvent: {}
+[2.504778] (-) TimerEvent: {}
+[2.605059] (-) TimerEvent: {}
+[2.705332] (-) TimerEvent: {}
+[2.793958] (robot_describtion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:1\x1b[m\x1b[K:\n'}
+[2.794119] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:8:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KRobotController\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.794187] (robot_describtion) StderrLine: {'line': b'    8 |         \x1b[01;31m\x1b[KRobotController\x1b[m\x1b[K() : Node("robot_describtion") {\n'}
+[2.794363] (robot_describtion) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.794433] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint RobotDescribtion::RobotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.794507] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:8:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[2.794573] (robot_describtion) StderrLine: {'line': b'    8 |         RobotController() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("robot_describtion") {\n'}
+[2.794654] (robot_describtion) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.794822] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:10:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.794899] (robot_describtion) StderrLine: {'line': b'   10 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.794958] (robot_describtion) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.805434] (-) TimerEvent: {}
+[2.905675] (-) TimerEvent: {}
+[3.005933] (-) TimerEvent: {}
+[3.065476] (robot_describtion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.065713] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.065766] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.065814] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.065860] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:4\x1b[m\x1b[K,\n'}
+[3.065911] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:1\x1b[m\x1b[K:\n'}
+[3.065963] (robot_describtion) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RobotDescribtion; _Args = {}; _Tp = RobotDescribtion]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.066008] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RobotDescribtion; _Args = {}; _Tp = RobotDescribtion; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<RobotDescribtion>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066056] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = RobotDescribtion; _Alloc = std::allocator<RobotDescribtion>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066101] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RobotDescribtion; _Alloc = std::allocator<RobotDescribtion>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066146] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RobotDescribtion>; _Args = {}; _Tp = RobotDescribtion; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066190] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RobotDescribtion>; _Args = {}; _Tp = RobotDescribtion]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066234] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RobotDescribtion; _Alloc = std::allocator<RobotDescribtion>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066285] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RobotDescribtion; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066329] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:5:49:\x1b[m\x1b[K   required from here\n'}
+[3.066373] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KRobotDescribtion::RobotDescribtion()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066416] (robot_describtion) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.066459] (robot_describtion) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.066501] (robot_describtion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:1\x1b[m\x1b[K:\n'}
+[3.066543] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRobotDescribtion::RobotDescribtion()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.066590] (robot_describtion) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KRobotDescribtion\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[3.066633] (robot_describtion) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.066676] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:6:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066724] (robot_describtion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.066767] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.066809] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.066851] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:4\x1b[m\x1b[K,\n'}
+[3.066894] (robot_describtion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:1\x1b[m\x1b[K:\n'}
+[3.066937] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.066980] (robot_describtion) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.067023] (robot_describtion) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.067065] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.067108] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.067152] (robot_describtion) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.067195] (robot_describtion) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.067237] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.067279] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.067322] (robot_describtion) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.067365] (robot_describtion) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.067407] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.106048] (-) TimerEvent: {}
+[3.109671] (robot_describtion) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_describtion.dir/build.make:76: CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o] Error 1\n'}
+[3.109895] (robot_describtion) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_describtion.dir/all] Error 2\n'}
+[3.110148] (robot_describtion) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.111648] (robot_describtion) CommandEnded: {'returncode': 2}
+[3.138840] (robot_describtion) JobEnded: {'identifier': 'robot_describtion', 'rc': 2}
+[3.149336] (-) EventReactorShutdown: {}

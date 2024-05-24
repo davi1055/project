@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_describtion[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_describtion[0m
+[100%] Built target robot_describtion
+-- Install configuration: ""
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/lib/robot_describtion/robot_describtion
+-- Set runtime path of "/root/my_ros_bot/workspace/install/robot_describtion/lib/robot_describtion/robot_describtion" to ""
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/urdf
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/urdf/robot.urdf
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/ament_index/resource_index/package_run_dependencies/robot_describtion
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/ament_index/resource_index/parent_prefix_path/robot_describtion
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/environment/ament_prefix_path.sh
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/environment/ament_prefix_path.dsv
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/environment/path.sh
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/environment/path.dsv
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/local_setup.bash
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/local_setup.sh
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/local_setup.zsh
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/local_setup.dsv
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/package.dsv
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/ament_index/resource_index/packages/robot_describtion
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/cmake/robot_describtionConfig.cmake
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/cmake/robot_describtionConfig-version.cmake
+-- Installing: /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/package.xml

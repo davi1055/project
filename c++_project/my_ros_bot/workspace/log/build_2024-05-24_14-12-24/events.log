@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (robot_describtion) JobQueued: {'identifier': 'robot_describtion', 'dependencies': OrderedDict()}
+[0.000120] (robot_describtion) JobStarted: {'identifier': 'robot_describtion'}
+[0.006551] (robot_describtion) JobProgress: {'identifier': 'robot_describtion', 'progress': 'cmake'}
+[0.006950] (robot_describtion) JobProgress: {'identifier': 'robot_describtion', 'progress': 'build'}
+[0.007491] (robot_describtion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/my_ros_bot/workspace/build/robot_describtion', '--', '-j8', '-l8'], 'cwd': '/root/my_ros_bot/workspace/build/robot_describtion', 'env': OrderedDict([('HOSTNAME', 'davi-Z3AirSeries'), ('FZF_DEFAULT_OPTS', '--color=fg:-1,bg:-1,hl:3,fg+:0,bg+:48,hl+:1,info:6,prompt:3,pointer:5'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/root/my_ros_bot/workspace/log'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'more'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/my_ros_bot/workspace/install:/opt/ros/humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble'), ('PWD', '/root/my_ros_bot/workspace/build/robot_describtion'), ('FZF_PREVIEW_OPTS', '--border --color=bg+:48,bg:-1,hl:3,fg:7'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/my_ros_bot/workspace/install/robot_describtion:/opt/ros/humble')]), 'shell': False}
+[0.026588] (robot_describtion) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.099327] (-) TimerEvent: {}
+[0.195107] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.197191] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199391] (-) TimerEvent: {}
+[0.202274] (robot_describtion) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.211489] (robot_describtion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.225338] (robot_describtion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.276079] (robot_describtion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.277197] (robot_describtion) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299499] (-) TimerEvent: {}
+[0.389880] (robot_describtion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399578] (-) TimerEvent: {}
+[0.499814] (-) TimerEvent: {}
+[0.541519] (robot_describtion) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.548515] (robot_describtion) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.548752] (robot_describtion) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/my_ros_bot/workspace/src/robot_describtion/./include;/root/my_ros_bot/workspace/src/robot_describtion/include\n'}
+[0.548878] (robot_describtion) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.549111] (robot_describtion) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.549550] (robot_describtion) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.549894] (robot_describtion) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.550611] (robot_describtion) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.550720] (robot_describtion) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.551008] (robot_describtion) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.552262] (robot_describtion) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.556684] (robot_describtion) StdoutLine: {'line': b'-- Generating done\n'}
+[0.557949] (robot_describtion) StdoutLine: {'line': b'-- Build files have been written to: /root/my_ros_bot/workspace/build/robot_describtion\n'}
+[0.573972] (robot_describtion) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_describtion\x1b[0m\n'}
+[0.585286] (robot_describtion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o\x1b[0m\n'}
+[0.590166] (robot_describtion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:1\x1b[m\x1b[K:\n'}
+[0.590335] (robot_describtion) StderrLine: {'line': b'\x1b[01m\x1b[K/root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.590425] (robot_describtion) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[0.590505] (robot_describtion) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.590582] (robot_describtion) StderrLine: {'line': b'compilation terminated.\n'}
+[0.590730] (robot_describtion) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_describtion.dir/build.make:76: CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o] Error 1\n'}
+[0.590835] (robot_describtion) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_describtion.dir/all] Error 2\n'}
+[0.590928] (robot_describtion) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.592399] (robot_describtion) CommandEnded: {'returncode': 2}
+[0.599879] (-) TimerEvent: {}
+[0.617410] (robot_describtion) JobEnded: {'identifier': 'robot_describtion', 'rc': 2}
+[0.627878] (-) EventReactorShutdown: {}
