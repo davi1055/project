@@ -86,4 +86,6 @@ endif()
 # 用来代替以前的export和两次install，以及最后的ament_package
 ament_auto_package(
 	INSTALL_TO_SHARE
+  urdf
+  launch
 )

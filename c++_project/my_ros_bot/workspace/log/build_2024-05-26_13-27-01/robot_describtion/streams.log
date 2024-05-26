@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/root/my_ros_bot/workspace/build/robot_describtion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/my_ros_bot/workspace/build/robot_describtion -- -j8 -l8
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target robot_describtion[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o[0m
+[1.823s] In file included from [01m[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:11[m[K:
+[1.823s] [01m[K/root/my_ros_bot/workspace/src/robot_describtion/./include/robot_describtion/robot_describtion.hpp:33:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid RobotDescribtion::timer_callback()[m[K’
+[1.823s]    33 | void [01;31m[KRobotDescribtion[m[K::timer_callback(){
+[1.823s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.823s] [01m[K/root/my_ros_bot/workspace/src/robot_describtion/./include/robot_describtion/robot_describtion.hpp:30:14:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid RobotDescribtion::timer_callback()[m[K’ previously defined here
+[1.823s]    30 |         void [01;36m[Ktimer_callback[m[K(){};
+[1.823s]       |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.376s] gmake[2]: *** [CMakeFiles/robot_describtion.dir/build.make:76: CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o] Error 1
+[2.376s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_describtion.dir/all] Error 2
+[2.376s] gmake: *** [Makefile:146: all] Error 2
+[2.378s] Invoked command in '/root/my_ros_bot/workspace/build/robot_describtion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/my_ros_bot/workspace/build/robot_describtion -- -j8 -l8

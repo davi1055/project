@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2024
  * 
  */
-#include "./robot_describtion/robot_describtion.hpp"
+#include "robot_describtion/robot_describtion.hpp"
 
 int main(int argc, char **argv) {
   rclcpp::init(argc, argv);

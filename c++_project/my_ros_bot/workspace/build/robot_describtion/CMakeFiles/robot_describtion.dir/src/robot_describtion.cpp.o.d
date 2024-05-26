@@ -1,7 +1,7 @@
 CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o: \
  /root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp \
  /usr/include/stdc-predef.h \
- /root/my_ros_bot/workspace/src/robot_describtion/./include/./robot_describtion/robot_describtion.hpp \
+ /root/my_ros_bot/workspace/src/robot_describtion/./include/robot_describtion/robot_describtion.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -599,4 +599,8 @@ CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
- /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+ /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp

@@ -1,5 +1,7 @@
 /root/my_ros_bot/workspace/install/robot_describtion/include/robot_describtion/robot_describtion.hpp
 /root/my_ros_bot/workspace/install/robot_describtion/lib/robot_describtion/robot_describtion
+/root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/urdf/robot.urdf
+/root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/launch/launch.py
 /root/my_ros_bot/workspace/install/robot_describtion/share/ament_index/resource_index/package_run_dependencies/robot_describtion
 /root/my_ros_bot/workspace/install/robot_describtion/share/ament_index/resource_index/parent_prefix_path/robot_describtion
 /root/my_ros_bot/workspace/install/robot_describtion/share/robot_describtion/environment/ament_prefix_path.sh

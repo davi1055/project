@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_describtion[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o[0m
+In file included from [01m[K/root/my_ros_bot/workspace/src/robot_describtion/src/robot_describtion.cpp:11[m[K:
+[01m[K/root/my_ros_bot/workspace/src/robot_describtion/./include/robot_describtion/robot_describtion.hpp:33:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid RobotDescribtion::timer_callback()[m[K’
+   33 | void [01;31m[KRobotDescribtion[m[K::timer_callback(){
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/my_ros_bot/workspace/src/robot_describtion/./include/robot_describtion/robot_describtion.hpp:30:14:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid RobotDescribtion::timer_callback()[m[K’ previously defined here
+   30 |         void [01;36m[Ktimer_callback[m[K(){};
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_describtion.dir/build.make:76: CMakeFiles/robot_describtion.dir/src/robot_describtion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_describtion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

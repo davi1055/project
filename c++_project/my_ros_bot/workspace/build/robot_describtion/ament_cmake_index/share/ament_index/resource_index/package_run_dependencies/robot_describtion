@@ -1,1 +1,1 @@
-rclcpp;rclcpp_components;std_msgs;sensor_msgs;ament_lint_auto;ament_lint_common
+rclcpp;rclcpp_components;std_msgs;sensor_msgs;robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;ament_lint_auto;ament_lint_common
